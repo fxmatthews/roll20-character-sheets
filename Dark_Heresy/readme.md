@@ -1,20 +1,21 @@
-Most things you can roll directly from the sheet, by clicking on the corresponding name or the roll button at the end of the row.
-With weapons: Clicking on 'Name:' rolls an attack, clicking on 'Damage:' rolls the damage you have entered in the field next to it. **Please just enter things like 1d10+2, because it will be transferred to an inline roll - no letters!**
+Vous pouvez lancer un jet directement depuis la fiche en cliquant sur le nom ou le bouton à la fin d'une ligne.
+Pour les armes : 
+  - cliquer sur "Nom" lance un jet pour toucher
+  - cliquer sur "Dégât" lance un jeu pour les dégâts indiqué (**Rentrer avec ce format 1d10+2**)
 
-### Important Attributes:
-* @{ws} - Weapon Skill
-* @{bs} - Ballistic Skill
-* @{strength} - Strength
-* @{toughness} - Toughness
-* @{ag} - Agility
+### Attributs importants:
+* @{ws} - Capacité de combat
+* @{bs} - Capacité de tir
+* @{strength} - Force
+* @{toughness} - Endurance
+* @{ag} - Agilité
 * @{int} - Intelligence
 * @{per} - Perception
-* @{wp} - Willpower
-* @{fel} - Fellowship
+* @{wp} - Force mentale
+* @{fel} - Sociabilité
 
-* @{wounds} - Current Wounds
-* @{wounds|max} - Total Wound amount
+* @{wounds} - Points de blessure actuels
+* @{wounds|max} - Points de blessure totaux
 
-The most important roll is the %{characteristic} roll. ([[(@{characteristic}+?{Modifier|0}-1d100)/10]] degree(s) of success!)
-It takes the characteristic you sleected in the drop down, then you may add or subtract a modifier, then it rolls 1d100 and subtracts that from your starting value. That divided by 10 is the amount of degrees of success you achieved.
-**You can emulate everything in this sheet with just this single roll if you don't want to use the rest!**
+Le jet le plus important est %{caractéristique}.
+Pöur déterminer un degré de succès, utiliser [[(@{characteristic}+?{Modifier|0}-1d100)/10]].
